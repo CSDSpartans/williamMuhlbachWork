@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+
+import sys
+meme=enumerate(open(sys.argv[1],'r').readlines())
+print(meme)
